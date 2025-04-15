@@ -1,0 +1,10 @@
+[0.000000] (-) TimerEvent: {}
+[0.003626] (-) JobUnselected: {'identifier': 'empty_shelf_msgs'}
+[0.004591] (-) JobUnselected: {'identifier': 'turtlebot4_ignition_bringup'}
+[0.004709] (-) JobUnselected: {'identifier': 'turtlebot4_ignition_gui_plugins'}
+[0.004754] (-) JobUnselected: {'identifier': 'turtlebot4_ignition_toolbox'}
+[0.004794] (-) JobUnselected: {'identifier': 'turtlebot4_simulator'}
+[0.004844] (empty_shelf_detector) JobQueued: {'identifier': 'empty_shelf_detector', 'dependencies': OrderedDict([('empty_shelf_msgs', '/home/raghav/turtlebot4_ws/install/empty_shelf_msgs')])}
+[0.004907] (empty_shelf_detector) JobStarted: {'identifier': 'empty_shelf_detector'}
+[0.047861] (empty_shelf_detector) JobEnded: {'identifier': 'empty_shelf_detector', 'rc': 1}
+[0.059084] (-) EventReactorShutdown: {}

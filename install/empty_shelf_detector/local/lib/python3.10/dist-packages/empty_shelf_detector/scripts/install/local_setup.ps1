@@ -1,0 +1,1 @@
+/home/raghav/turtlebot4_ws/src/empty_shelf_detector/empty_shelf_detector/scripts/install/local_setup.ps1

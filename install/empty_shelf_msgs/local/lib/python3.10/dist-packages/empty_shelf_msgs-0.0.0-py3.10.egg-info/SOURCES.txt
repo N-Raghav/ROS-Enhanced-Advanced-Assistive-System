@@ -1,0 +1,1 @@
+/home/raghav/turtlebot4_ws/build/empty_shelf_msgs/ament_cmake_python/empty_shelf_msgs/empty_shelf_msgs.egg-info/SOURCES.txt

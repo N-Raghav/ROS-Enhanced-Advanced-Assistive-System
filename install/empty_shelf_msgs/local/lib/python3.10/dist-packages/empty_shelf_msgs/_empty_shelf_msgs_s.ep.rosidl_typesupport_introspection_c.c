@@ -1,0 +1,1 @@
+/home/raghav/turtlebot4_ws/build/empty_shelf_msgs/rosidl_generator_py/empty_shelf_msgs/_empty_shelf_msgs_s.ep.rosidl_typesupport_introspection_c.c

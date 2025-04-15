@@ -1,0 +1,8 @@
+setup.py
+empty_shelf_msgs/__init__.py
+empty_shelf_msgs.egg-info/PKG-INFO
+empty_shelf_msgs.egg-info/SOURCES.txt
+empty_shelf_msgs.egg-info/dependency_links.txt
+empty_shelf_msgs.egg-info/top_level.txt
+empty_shelf_msgs/msg/__init__.py
+empty_shelf_msgs/msg/_empty_shelf_alert.py

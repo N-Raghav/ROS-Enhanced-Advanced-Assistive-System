@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from empty_shelf_msgs/msg/EmptyShelfAlert.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module empty_shelf_msgs {
+  module msg {
+    struct EmptyShelfAlert {
+      builtin_interfaces::msg::Time timestamp;
+
+      int32 shelf_level;
+
+      float x;
+
+      float y;
+
+      float depth;
+
+      float confidence;
+
+      string status;
+    };
+  };
+};

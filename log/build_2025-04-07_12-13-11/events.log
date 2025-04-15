@@ -1,0 +1,377 @@
+[0.000000] (-) TimerEvent: {}
+[0.000843] (-) JobUnselected: {'identifier': 'empty_shelf_detector'}
+[0.001744] (-) JobUnselected: {'identifier': 'turtlebot4_ignition_bringup'}
+[0.001799] (-) JobUnselected: {'identifier': 'turtlebot4_ignition_gui_plugins'}
+[0.001827] (-) JobUnselected: {'identifier': 'turtlebot4_ignition_toolbox'}
+[0.001851] (-) JobUnselected: {'identifier': 'turtlebot4_simulator'}
+[0.001885] (empty_shelf_msgs) JobQueued: {'identifier': 'empty_shelf_msgs', 'dependencies': OrderedDict()}
+[0.001949] (empty_shelf_msgs) JobStarted: {'identifier': 'empty_shelf_msgs'}
+[0.015607] (empty_shelf_msgs) JobProgress: {'identifier': 'empty_shelf_msgs', 'progress': 'cmake'}
+[0.017132] (empty_shelf_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/raghav/turtlebot4_ws/src/empty_shelf_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/raghav/turtlebot4_ws/install/empty_shelf_msgs'], 'cwd': '/home/raghav/turtlebot4_ws/build/empty_shelf_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'raghav'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/raghav/turtlebot4_ws/install/empty_shelf_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/raghav'), ('OLDPWD', '/home/raghav/turtlebot4_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '6970'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/raghav/turtlebot4_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'raghav'), ('_', '/home/raghav/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'raghav'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/usr/share/gazebo-ignition/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/raghav/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/SolvedCandle:@/tmp/.ICE-unix/2025,unix/SolvedCandle:/tmp/.ICE-unix/2025'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f7995925_fa75_40b5_a4c5_8c57f0d988ce'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0OUJ42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.164'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/raghav/turtlebot4_ws/install/empty_shelf_msgs:/home/raghav/turtlebot4_ws/install/turtlebot4_simulator:/home/raghav/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/raghav/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/raghav/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins:/home/raghav/turtlebot4_ws/install/empty_shelf_detector:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/raghav/ign_models:/usr/share/gazebo-ignition:/home/raghav/ign_models'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/raghav/turtlebot4_ws/build/empty_shelf_msgs'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/raghav/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages:/home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages:/home/raghav/turtlebot4_ws/build/empty_shelf_detector:/home/raghav/turtlebot4_ws/install/empty_shelf_detector/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/raghav/turtlebot4_ws/install/empty_shelf_detector:/home/raghav/turtlebot4_ws/install/empty_shelf_msgs:/home/raghav/turtlebot4_ws/install/turtlebot4_simulator:/home/raghav/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/raghav/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/raghav/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins:/opt/ros/humble')]), 'shell': False}
+[0.099385] (-) TimerEvent: {}
+[0.138095] (empty_shelf_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199588] (-) TimerEvent: {}
+[0.255606] (empty_shelf_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.269339] (empty_shelf_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299734] (-) TimerEvent: {}
+[0.400428] (-) TimerEvent: {}
+[0.417385] (empty_shelf_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.433421] (empty_shelf_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.434351] (empty_shelf_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.435054] (empty_shelf_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.440677] (empty_shelf_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500606] (-) TimerEvent: {}
+[0.601344] (-) TimerEvent: {}
+[0.608833] (empty_shelf_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.621822] (empty_shelf_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.622259] (empty_shelf_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.622885] (empty_shelf_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.626537] (empty_shelf_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.701601] (-) TimerEvent: {}
+[0.801995] (-) TimerEvent: {}
+[0.902472] (-) TimerEvent: {}
+[0.934956] (empty_shelf_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.003233] (-) TimerEvent: {}
+[1.069978] (empty_shelf_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.103423] (-) TimerEvent: {}
+[1.124626] (empty_shelf_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[1.203625] (-) TimerEvent: {}
+[1.223169] (empty_shelf_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.239051] (empty_shelf_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.265100] (empty_shelf_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.301557] (empty_shelf_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.304423] (-) TimerEvent: {}
+[1.343379] (empty_shelf_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.404638] (-) TimerEvent: {}
+[1.410033] (empty_shelf_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.448055] (empty_shelf_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.505842] (-) TimerEvent: {}
+[1.606506] (-) TimerEvent: {}
+[1.707353] (-) TimerEvent: {}
+[1.808364] (-) TimerEvent: {}
+[1.909150] (-) TimerEvent: {}
+[2.009643] (-) TimerEvent: {}
+[2.095647] (empty_shelf_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.109761] (-) TimerEvent: {}
+[2.210334] (-) TimerEvent: {}
+[2.311306] (-) TimerEvent: {}
+[2.411886] (-) TimerEvent: {}
+[2.512474] (-) TimerEvent: {}
+[2.613161] (-) TimerEvent: {}
+[2.714611] (-) TimerEvent: {}
+[2.815387] (-) TimerEvent: {}
+[2.916124] (-) TimerEvent: {}
+[3.016594] (-) TimerEvent: {}
+[3.022846] (empty_shelf_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.116765] (-) TimerEvent: {}
+[3.217373] (-) TimerEvent: {}
+[3.317951] (-) TimerEvent: {}
+[3.353095] (empty_shelf_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.399405] (empty_shelf_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.402386] (empty_shelf_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.418118] (-) TimerEvent: {}
+[3.454518] (empty_shelf_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.455029] (empty_shelf_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.455146] (empty_shelf_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.455240] (empty_shelf_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.496806] (empty_shelf_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.518252] (-) TimerEvent: {}
+[3.618776] (-) TimerEvent: {}
+[3.634626] (empty_shelf_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.708861] (empty_shelf_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[3.718964] (-) TimerEvent: {}
+[3.743548] (empty_shelf_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/raghav/turtlebot4_ws/build/empty_shelf_msgs\n'}
+[3.764943] (empty_shelf_msgs) CommandEnded: {'returncode': 0}
+[3.766750] (empty_shelf_msgs) JobProgress: {'identifier': 'empty_shelf_msgs', 'progress': 'build'}
+[3.769923] (empty_shelf_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/raghav/turtlebot4_ws/build/empty_shelf_msgs', '--', '-j8', '-l8'], 'cwd': '/home/raghav/turtlebot4_ws/build/empty_shelf_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'raghav'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/raghav/turtlebot4_ws/install/empty_shelf_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/raghav'), ('OLDPWD', '/home/raghav/turtlebot4_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '6970'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/raghav/turtlebot4_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'raghav'), ('_', '/home/raghav/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'raghav'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/usr/share/gazebo-ignition/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/raghav/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/SolvedCandle:@/tmp/.ICE-unix/2025,unix/SolvedCandle:/tmp/.ICE-unix/2025'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f7995925_fa75_40b5_a4c5_8c57f0d988ce'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0OUJ42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.164'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/raghav/turtlebot4_ws/install/empty_shelf_msgs:/home/raghav/turtlebot4_ws/install/turtlebot4_simulator:/home/raghav/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/raghav/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/raghav/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins:/home/raghav/turtlebot4_ws/install/empty_shelf_detector:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/raghav/ign_models:/usr/share/gazebo-ignition:/home/raghav/ign_models'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/raghav/turtlebot4_ws/build/empty_shelf_msgs'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/raghav/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages:/home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages:/home/raghav/turtlebot4_ws/build/empty_shelf_detector:/home/raghav/turtlebot4_ws/install/empty_shelf_detector/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/raghav/turtlebot4_ws/install/empty_shelf_detector:/home/raghav/turtlebot4_ws/install/empty_shelf_msgs:/home/raghav/turtlebot4_ws/install/turtlebot4_simulator:/home/raghav/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/raghav/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/raghav/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins:/opt/ros/humble')]), 'shell': False}
+[3.819169] (-) TimerEvent: {}
+[3.884351] (empty_shelf_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.919393] (-) TimerEvent: {}
+[4.019869] (-) TimerEvent: {}
+[4.120429] (-) TimerEvent: {}
+[4.220978] (-) TimerEvent: {}
+[4.321481] (-) TimerEvent: {}
+[4.368746] (empty_shelf_msgs) StdoutLine: {'line': b'[  3%] Built target empty_shelf_msgs__cpp\n'}
+[4.411704] (empty_shelf_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_symlink_empty_shelf_msgs\n'}
+[4.421657] (-) TimerEvent: {}
+[4.429751] (empty_shelf_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.521844] (-) TimerEvent: {}
+[4.623038] (-) TimerEvent: {}
+[4.723955] (-) TimerEvent: {}
+[4.825501] (-) TimerEvent: {}
+[4.926410] (-) TimerEvent: {}
+[5.027011] (-) TimerEvent: {}
+[5.097503] (empty_shelf_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/empty_shelf_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/empty_shelf_msgs/msg/detail/empty_shelf_alert__type_support.cpp.o\x1b[0m\n'}
+[5.127192] (-) TimerEvent: {}
+[5.227795] (-) TimerEvent: {}
+[5.328451] (-) TimerEvent: {}
+[5.429025] (-) TimerEvent: {}
+[5.529661] (-) TimerEvent: {}
+[5.630166] (-) TimerEvent: {}
+[5.670620] (empty_shelf_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking CXX shared library libempty_shelf_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.730315] (-) TimerEvent: {}
+[5.803547] (empty_shelf_msgs) StdoutLine: {'line': b'[ 12%] Built target empty_shelf_msgs__rosidl_typesupport_introspection_cpp\n'}
+[5.830466] (-) TimerEvent: {}
+[5.931839] (-) TimerEvent: {}
+[6.032370] (-) TimerEvent: {}
+[6.133287] (-) TimerEvent: {}
+[6.233809] (-) TimerEvent: {}
+[6.303977] (empty_shelf_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[6.304758] (empty_shelf_msgs) StdoutLine: {'line': b'creating empty_shelf_msgs.egg-info\n'}
+[6.305384] (empty_shelf_msgs) StdoutLine: {'line': b'writing empty_shelf_msgs.egg-info/PKG-INFO\n'}
+[6.305931] (empty_shelf_msgs) StdoutLine: {'line': b'writing dependency_links to empty_shelf_msgs.egg-info/dependency_links.txt\n'}
+[6.306109] (empty_shelf_msgs) StdoutLine: {'line': b'writing top-level names to empty_shelf_msgs.egg-info/top_level.txt\n'}
+[6.306338] (empty_shelf_msgs) StdoutLine: {'line': b"writing manifest file 'empty_shelf_msgs.egg-info/SOURCES.txt'\n"}
+[6.311132] (empty_shelf_msgs) StdoutLine: {'line': b"reading manifest file 'empty_shelf_msgs.egg-info/SOURCES.txt'\n"}
+[6.311939] (empty_shelf_msgs) StdoutLine: {'line': b"writing manifest file 'empty_shelf_msgs.egg-info/SOURCES.txt'\n"}
+[6.333970] (-) TimerEvent: {}
+[6.393818] (empty_shelf_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_build_empty_shelf_msgs_egg\n'}
+[6.413089] (empty_shelf_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.434112] (-) TimerEvent: {}
+[6.535273] (-) TimerEvent: {}
+[6.636625] (-) TimerEvent: {}
+[6.737233] (-) TimerEvent: {}
+[6.837749] (-) TimerEvent: {}
+[6.910933] (empty_shelf_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/empty_shelf_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/empty_shelf_msgs/msg/detail/dds_fastrtps/empty_shelf_alert__type_support.cpp.o\x1b[0m\n'}
+[6.937969] (-) TimerEvent: {}
+[7.038624] (-) TimerEvent: {}
+[7.139215] (-) TimerEvent: {}
+[7.240513] (-) TimerEvent: {}
+[7.341344] (-) TimerEvent: {}
+[7.442614] (-) TimerEvent: {}
+[7.543217] (-) TimerEvent: {}
+[7.644190] (-) TimerEvent: {}
+[7.745694] (-) TimerEvent: {}
+[7.829066] (empty_shelf_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking CXX shared library libempty_shelf_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.845856] (-) TimerEvent: {}
+[7.946726] (-) TimerEvent: {}
+[8.041204] (empty_shelf_msgs) StdoutLine: {'line': b'[ 22%] Built target empty_shelf_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[8.046996] (-) TimerEvent: {}
+[8.060374] (empty_shelf_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.147264] (-) TimerEvent: {}
+[8.247806] (-) TimerEvent: {}
+[8.348403] (-) TimerEvent: {}
+[8.449189] (-) TimerEvent: {}
+[8.495206] (empty_shelf_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/empty_shelf_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/empty_shelf_msgs/msg/empty_shelf_alert__type_support.cpp.o\x1b[0m\n'}
+[8.549363] (-) TimerEvent: {}
+[8.649936] (-) TimerEvent: {}
+[8.750578] (-) TimerEvent: {}
+[8.851163] (-) TimerEvent: {}
+[8.932644] (empty_shelf_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32m\x1b[1mLinking CXX shared library libempty_shelf_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.951320] (-) TimerEvent: {}
+[8.999392] (empty_shelf_msgs) StdoutLine: {'line': b'[ 32%] Built target empty_shelf_msgs__rosidl_typesupport_cpp\n'}
+[9.018484] (empty_shelf_msgs) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[9.051458] (-) TimerEvent: {}
+[9.151945] (-) TimerEvent: {}
+[9.252611] (-) TimerEvent: {}
+[9.354186] (-) TimerEvent: {}
+[9.455674] (-) TimerEvent: {}
+[9.557742] (-) TimerEvent: {}
+[9.658434] (-) TimerEvent: {}
+[9.678710] (empty_shelf_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/empty_shelf_msgs__rosidl_generator_c.dir/rosidl_generator_c/empty_shelf_msgs/msg/detail/empty_shelf_alert__functions.c.o\x1b[0m\n'}
+[9.758658] (-) TimerEvent: {}
+[9.772993] (empty_shelf_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking C shared library libempty_shelf_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[9.858839] (-) TimerEvent: {}
+[9.861974] (empty_shelf_msgs) StdoutLine: {'line': b'[ 41%] Built target empty_shelf_msgs__rosidl_generator_c\n'}
+[9.882608] (empty_shelf_msgs) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.958972] (-) TimerEvent: {}
+[10.062127] (-) TimerEvent: {}
+[10.162588] (-) TimerEvent: {}
+[10.263471] (-) TimerEvent: {}
+[10.364763] (-) TimerEvent: {}
+[10.440953] (empty_shelf_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/empty_shelf_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/empty_shelf_msgs/msg/detail/empty_shelf_alert__type_support_c.cpp.o\x1b[0m\n'}
+[10.466285] (-) TimerEvent: {}
+[10.566747] (-) TimerEvent: {}
+[10.667351] (-) TimerEvent: {}
+[10.768317] (-) TimerEvent: {}
+[10.869938] (-) TimerEvent: {}
+[10.971259] (-) TimerEvent: {}
+[11.040123] (empty_shelf_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libempty_shelf_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[11.071300] (-) TimerEvent: {}
+[11.172639] (-) TimerEvent: {}
+[11.240454] (empty_shelf_msgs) StdoutLine: {'line': b'[ 51%] Built target empty_shelf_msgs__rosidl_typesupport_fastrtps_c\n'}
+[11.265355] (empty_shelf_msgs) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[11.272802] (-) TimerEvent: {}
+[11.373968] (-) TimerEvent: {}
+[11.475111] (-) TimerEvent: {}
+[11.575674] (-) TimerEvent: {}
+[11.676705] (-) TimerEvent: {}
+[11.721492] (empty_shelf_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/empty_shelf_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/empty_shelf_msgs/msg/empty_shelf_alert__type_support.cpp.o\x1b[0m\n'}
+[11.776860] (-) TimerEvent: {}
+[11.781680] (empty_shelf_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libempty_shelf_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[11.867003] (empty_shelf_msgs) StdoutLine: {'line': b'[ 61%] Built target empty_shelf_msgs__rosidl_typesupport_c\n'}
+[11.877055] (-) TimerEvent: {}
+[11.888358] (empty_shelf_msgs) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[11.977184] (-) TimerEvent: {}
+[12.078757] (-) TimerEvent: {}
+[12.179438] (-) TimerEvent: {}
+[12.280575] (-) TimerEvent: {}
+[12.382483] (-) TimerEvent: {}
+[12.483075] (-) TimerEvent: {}
+[12.578769] (empty_shelf_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object CMakeFiles/empty_shelf_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/empty_shelf_msgs/msg/detail/empty_shelf_alert__type_support.c.o\x1b[0m\n'}
+[12.583261] (-) TimerEvent: {}
+[12.640913] (empty_shelf_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking C shared library libempty_shelf_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[12.683447] (-) TimerEvent: {}
+[12.696224] (empty_shelf_msgs) StdoutLine: {'line': b'[ 70%] Built target empty_shelf_msgs__rosidl_typesupport_introspection_c\n'}
+[12.739479] (empty_shelf_msgs) StdoutLine: {'line': b'[ 70%] Built target empty_shelf_msgs\n'}
+[12.782479] (empty_shelf_msgs) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[12.783590] (-) TimerEvent: {}
+[12.884747] (-) TimerEvent: {}
+[12.985450] (-) TimerEvent: {}
+[13.086518] (-) TimerEvent: {}
+[13.187583] (-) TimerEvent: {}
+[13.288957] (-) TimerEvent: {}
+[13.391066] (-) TimerEvent: {}
+[13.493065] (-) TimerEvent: {}
+[13.593689] (-) TimerEvent: {}
+[13.694455] (-) TimerEvent: {}
+[13.727750] (empty_shelf_msgs) StdoutLine: {'line': b'[ 74%] Built target empty_shelf_msgs__py\n'}
+[13.761962] (empty_shelf_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/empty_shelf_msgs__rosidl_generator_py.dir/rosidl_generator_py/empty_shelf_msgs/msg/_empty_shelf_alert_s.c.o\x1b[0m\n'}
+[13.794759] (-) TimerEvent: {}
+[13.896374] (-) TimerEvent: {}
+[13.962711] (empty_shelf_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/empty_shelf_msgs/libempty_shelf_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[13.996510] (-) TimerEvent: {}
+[14.058070] (empty_shelf_msgs) StdoutLine: {'line': b'[ 80%] Built target empty_shelf_msgs__rosidl_generator_py\n'}
+[14.096702] (-) TimerEvent: {}
+[14.100579] (empty_shelf_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/empty_shelf_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/empty_shelf_msgs/_empty_shelf_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[14.196848] (-) TimerEvent: {}
+[14.257159] (empty_shelf_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/empty_shelf_msgs/empty_shelf_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.297218] (-) TimerEvent: {}
+[14.328906] (empty_shelf_msgs) StdoutLine: {'line': b'[ 87%] Built target empty_shelf_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[14.372875] (empty_shelf_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/empty_shelf_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/empty_shelf_msgs/_empty_shelf_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[14.397431] (-) TimerEvent: {}
+[14.498313] (-) TimerEvent: {}
+[14.599298] (-) TimerEvent: {}
+[14.615406] (empty_shelf_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/empty_shelf_msgs/empty_shelf_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.699712] (-) TimerEvent: {}
+[14.714371] (empty_shelf_msgs) StdoutLine: {'line': b'[ 93%] Built target empty_shelf_msgs__rosidl_typesupport_c__pyext\n'}
+[14.754846] (empty_shelf_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/empty_shelf_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/empty_shelf_msgs/_empty_shelf_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[14.799907] (-) TimerEvent: {}
+[14.900580] (-) TimerEvent: {}
+[14.932011] (empty_shelf_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/empty_shelf_msgs/empty_shelf_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.000702] (-) TimerEvent: {}
+[15.006211] (empty_shelf_msgs) StdoutLine: {'line': b'[100%] Built target empty_shelf_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[15.030393] (empty_shelf_msgs) CommandEnded: {'returncode': 0}
+[15.031474] (empty_shelf_msgs) JobProgress: {'identifier': 'empty_shelf_msgs', 'progress': 'install'}
+[15.048040] (empty_shelf_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/raghav/turtlebot4_ws/build/empty_shelf_msgs'], 'cwd': '/home/raghav/turtlebot4_ws/build/empty_shelf_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'raghav'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/raghav/turtlebot4_ws/install/empty_shelf_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/raghav'), ('OLDPWD', '/home/raghav/turtlebot4_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '6970'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/raghav/turtlebot4_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'raghav'), ('_', '/home/raghav/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'raghav'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/usr/share/gazebo-ignition/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/raghav/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/SolvedCandle:@/tmp/.ICE-unix/2025,unix/SolvedCandle:/tmp/.ICE-unix/2025'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f7995925_fa75_40b5_a4c5_8c57f0d988ce'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0OUJ42'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.164'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/raghav/turtlebot4_ws/install/empty_shelf_msgs:/home/raghav/turtlebot4_ws/install/turtlebot4_simulator:/home/raghav/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/raghav/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/raghav/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins:/home/raghav/turtlebot4_ws/install/empty_shelf_detector:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/home/raghav/ign_models:/usr/share/gazebo-ignition:/home/raghav/ign_models'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/raghav/turtlebot4_ws/build/empty_shelf_msgs'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/raghav/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages:/home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages:/home/raghav/turtlebot4_ws/build/empty_shelf_detector:/home/raghav/turtlebot4_ws/install/empty_shelf_detector/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/raghav/turtlebot4_ws/install/empty_shelf_detector:/home/raghav/turtlebot4_ws/install/empty_shelf_msgs:/home/raghav/turtlebot4_ws/install/turtlebot4_simulator:/home/raghav/turtlebot4_ws/install/turtlebot4_ignition_bringup:/home/raghav/turtlebot4_ws/install/turtlebot4_ignition_toolbox:/home/raghav/turtlebot4_ws/install/turtlebot4_ignition_gui_plugins:/opt/ros/humble')]), 'shell': False}
+[15.060851] (empty_shelf_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.062217] (empty_shelf_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[15.062613] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/ament_index/resource_index/rosidl_interfaces/empty_shelf_msgs\n'}
+[15.080714] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/include/empty_shelf_msgs/empty_shelf_msgs/msg/detail/empty_shelf_alert__functions.h\n'}
+[15.097159] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/include/empty_shelf_msgs/empty_shelf_msgs/msg/detail/empty_shelf_alert__struct.h\n'}
+[15.100870] (-) TimerEvent: {}
+[15.112595] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/include/empty_shelf_msgs/empty_shelf_msgs/msg/detail/empty_shelf_alert__type_support.h\n'}
+[15.133977] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/include/empty_shelf_msgs/empty_shelf_msgs/msg/empty_shelf_alert.h\n'}
+[15.153735] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/include/empty_shelf_msgs/empty_shelf_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[15.172572] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/environment/library_path.sh\n'}
+[15.188786] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/environment/library_path.dsv\n'}
+[15.201049] (-) TimerEvent: {}
+[15.204270] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/include/empty_shelf_msgs/empty_shelf_msgs/msg/detail/empty_shelf_alert__rosidl_typesupport_fastrtps_c.h\n'}
+[15.221362] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/include/empty_shelf_msgs/empty_shelf_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[15.236149] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/include/empty_shelf_msgs/empty_shelf_msgs/msg/detail/empty_shelf_alert__builder.hpp\n'}
+[15.253211] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/include/empty_shelf_msgs/empty_shelf_msgs/msg/detail/empty_shelf_alert__struct.hpp\n'}
+[15.270402] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/include/empty_shelf_msgs/empty_shelf_msgs/msg/detail/empty_shelf_alert__traits.hpp\n'}
+[15.284723] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/include/empty_shelf_msgs/empty_shelf_msgs/msg/detail/empty_shelf_alert__type_support.hpp\n'}
+[15.301228] (-) TimerEvent: {}
+[15.304433] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/include/empty_shelf_msgs/empty_shelf_msgs/msg/empty_shelf_alert.hpp\n'}
+[15.320506] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/include/empty_shelf_msgs/empty_shelf_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[15.338561] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/include/empty_shelf_msgs/empty_shelf_msgs/msg/detail/empty_shelf_alert__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.354755] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/include/empty_shelf_msgs/empty_shelf_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[15.372987] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/include/empty_shelf_msgs/empty_shelf_msgs/msg/detail/empty_shelf_alert__rosidl_typesupport_introspection_c.h\n'}
+[15.392782] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/include/empty_shelf_msgs/empty_shelf_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[15.401336] (-) TimerEvent: {}
+[15.410440] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/include/empty_shelf_msgs/empty_shelf_msgs/msg/detail/empty_shelf_alert__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.429212] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/environment/pythonpath.sh\n'}
+[15.447292] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/environment/pythonpath.dsv\n'}
+[15.464490] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[15.481657] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[15.497862] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[15.501505] (-) TimerEvent: {}
+[15.514689] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[15.533866] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs/__init__.py\n'}
+[15.555096] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs/_empty_shelf_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[15.575768] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs/_empty_shelf_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[15.597045] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs/_empty_shelf_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[15.601683] (-) TimerEvent: {}
+[15.614553] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs/empty_shelf_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.634870] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs/empty_shelf_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.650203] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs/empty_shelf_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.669971] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs/libempty_shelf_msgs__rosidl_generator_py.so\n'}
+[15.689961] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs/msg/__init__.py\n'}
+[15.702125] (-) TimerEvent: {}
+[15.712182] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs/msg/_empty_shelf_alert.py\n'}
+[15.732186] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs/msg/_empty_shelf_alert_s.c\n'}
+[15.758805] (empty_shelf_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs/empty_shelf_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.759215] (empty_shelf_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs/empty_shelf_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.759707] (empty_shelf_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs/empty_shelf_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.761368] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/msg/EmptyShelfAlert.idl\n'}
+[15.785162] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/msg/EmptyShelfAlert.msg\n'}
+[15.802297] (-) TimerEvent: {}
+[15.804731] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/ament_index/resource_index/package_run_dependencies/empty_shelf_msgs\n'}
+[15.824128] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/ament_index/resource_index/parent_prefix_path/empty_shelf_msgs\n'}
+[15.845525] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/environment/ament_prefix_path.sh\n'}
+[15.865103] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/environment/ament_prefix_path.dsv\n'}
+[15.885853] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/environment/path.sh\n'}
+[15.903809] (-) TimerEvent: {}
+[15.905856] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/environment/path.dsv\n'}
+[15.921789] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/local_setup.bash\n'}
+[15.939875] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/local_setup.sh\n'}
+[15.956567] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/local_setup.zsh\n'}
+[15.971677] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/local_setup.dsv\n'}
+[15.987783] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/package.dsv\n'}
+[16.003449] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/ament_index/resource_index/packages/empty_shelf_msgs\n'}
+[16.003841] (-) TimerEvent: {}
+[16.020055] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[16.037698] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[16.054291] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[16.071123] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[16.086674] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[16.104025] (-) TimerEvent: {}
+[16.105149] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[16.121586] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[16.136610] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/empty_shelf_msgsConfig.cmake\n'}
+[16.154224] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/empty_shelf_msgsConfig-version.cmake\n'}
+[16.171286] (empty_shelf_msgs) StdoutLine: {'line': b'-- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/package.xml\n'}
+[16.196390] (empty_shelf_msgs) StdoutLine: {'line': b'-- Installing: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/lib/libempty_shelf_msgs__rosidl_generator_c.so\n'}
+[16.196675] (empty_shelf_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/raghav/turtlebot4_ws/install/empty_shelf_msgs/lib/libempty_shelf_msgs__rosidl_generator_c.so" to ""\n'}
+[16.196786] (empty_shelf_msgs) StdoutLine: {'line': b'-- Installing: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/lib/libempty_shelf_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[16.196930] (empty_shelf_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/raghav/turtlebot4_ws/install/empty_shelf_msgs/lib/libempty_shelf_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[16.197102] (empty_shelf_msgs) StdoutLine: {'line': b'-- Installing: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/lib/libempty_shelf_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[16.197212] (empty_shelf_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/raghav/turtlebot4_ws/install/empty_shelf_msgs/lib/libempty_shelf_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[16.197387] (empty_shelf_msgs) StdoutLine: {'line': b'-- Installing: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/lib/libempty_shelf_msgs__rosidl_typesupport_introspection_c.so\n'}
+[16.197565] (empty_shelf_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/raghav/turtlebot4_ws/install/empty_shelf_msgs/lib/libempty_shelf_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[16.197728] (empty_shelf_msgs) StdoutLine: {'line': b'-- Installing: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/lib/libempty_shelf_msgs__rosidl_typesupport_c.so\n'}
+[16.197840] (empty_shelf_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/raghav/turtlebot4_ws/install/empty_shelf_msgs/lib/libempty_shelf_msgs__rosidl_typesupport_c.so" to ""\n'}
+[16.198135] (empty_shelf_msgs) StdoutLine: {'line': b'-- Installing: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/lib/libempty_shelf_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[16.198646] (empty_shelf_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/raghav/turtlebot4_ws/install/empty_shelf_msgs/lib/libempty_shelf_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[16.198793] (empty_shelf_msgs) StdoutLine: {'line': b'-- Installing: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/lib/libempty_shelf_msgs__rosidl_typesupport_cpp.so\n'}
+[16.198972] (empty_shelf_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/raghav/turtlebot4_ws/install/empty_shelf_msgs/lib/libempty_shelf_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[16.204209] (-) TimerEvent: {}
+[16.289579] (empty_shelf_msgs) StdoutLine: {'line': b"Listing '/home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs'...\n"}
+[16.290031] (empty_shelf_msgs) StdoutLine: {'line': b"Compiling '/home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs/__init__.py'...\n"}
+[16.290195] (empty_shelf_msgs) StdoutLine: {'line': b"Listing '/home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs/msg'...\n"}
+[16.290334] (empty_shelf_msgs) StdoutLine: {'line': b"Compiling '/home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs/msg/__init__.py'...\n"}
+[16.290470] (empty_shelf_msgs) StdoutLine: {'line': b"Compiling '/home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs/msg/_empty_shelf_alert.py'...\n"}
+[16.305017] (-) TimerEvent: {}
+[16.310365] (empty_shelf_msgs) StdoutLine: {'line': b'-- Installing: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/lib/libempty_shelf_msgs__rosidl_generator_py.so\n'}
+[16.310673] (empty_shelf_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/raghav/turtlebot4_ws/install/empty_shelf_msgs/lib/libempty_shelf_msgs__rosidl_generator_py.so" to ""\n'}
+[16.311053] (empty_shelf_msgs) StdoutLine: {'line': b'-- Installing: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/export_empty_shelf_msgs__rosidl_generator_cExport.cmake\n'}
+[16.311532] (empty_shelf_msgs) StdoutLine: {'line': b'-- Installing: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/export_empty_shelf_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[16.311777] (empty_shelf_msgs) StdoutLine: {'line': b'-- Installing: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/export_empty_shelf_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[16.312136] (empty_shelf_msgs) StdoutLine: {'line': b'-- Installing: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/export_empty_shelf_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[16.312441] (empty_shelf_msgs) StdoutLine: {'line': b'-- Installing: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/export_empty_shelf_msgs__rosidl_generator_cppExport.cmake\n'}
+[16.313778] (empty_shelf_msgs) StdoutLine: {'line': b'-- Installing: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/export_empty_shelf_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[16.314228] (empty_shelf_msgs) StdoutLine: {'line': b'-- Installing: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/export_empty_shelf_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[16.314380] (empty_shelf_msgs) StdoutLine: {'line': b'-- Installing: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/empty_shelf_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[16.314699] (empty_shelf_msgs) StdoutLine: {'line': b'-- Installing: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/empty_shelf_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[16.314862] (empty_shelf_msgs) StdoutLine: {'line': b'-- Installing: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/empty_shelf_msgs__rosidl_typesupport_cExport.cmake\n'}
+[16.315063] (empty_shelf_msgs) StdoutLine: {'line': b'-- Installing: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/empty_shelf_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[16.315527] (empty_shelf_msgs) StdoutLine: {'line': b'-- Installing: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/empty_shelf_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[16.315794] (empty_shelf_msgs) StdoutLine: {'line': b'-- Installing: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/empty_shelf_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[16.316486] (empty_shelf_msgs) StdoutLine: {'line': b'-- Installing: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/empty_shelf_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[16.316745] (empty_shelf_msgs) StdoutLine: {'line': b'-- Installing: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/empty_shelf_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[16.316924] (empty_shelf_msgs) StdoutLine: {'line': b'-- Installing: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/export_empty_shelf_msgs__rosidl_generator_pyExport.cmake\n'}
+[16.317061] (empty_shelf_msgs) StdoutLine: {'line': b'-- Installing: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/export_empty_shelf_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[16.324078] (empty_shelf_msgs) CommandEnded: {'returncode': 0}
+[16.381110] (empty_shelf_msgs) JobEnded: {'identifier': 'empty_shelf_msgs', 'rc': 0}
+[16.382942] (-) EventReactorShutdown: {}

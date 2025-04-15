@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+empty_shelf_detector/__init__.py
+empty_shelf_detector.egg-info/PKG-INFO
+empty_shelf_detector.egg-info/SOURCES.txt
+empty_shelf_detector.egg-info/dependency_links.txt
+empty_shelf_detector.egg-info/top_level.txt

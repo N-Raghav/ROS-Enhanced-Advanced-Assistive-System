@@ -1,0 +1,121 @@
+[0.025s] Invoking command in '/home/raghav/turtlebot4_ws/build/empty_shelf_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/raghav/turtlebot4_ws/build/empty_shelf_msgs -- -j8 -l8
+[0.121s] [  3%] Built target empty_shelf_msgs__cpp
+[0.163s] [  3%] Built target ament_cmake_python_symlink_empty_shelf_msgs
+[0.195s] [ 12%] Built target empty_shelf_msgs__rosidl_typesupport_introspection_cpp
+[0.616s] running egg_info
+[0.617s] writing empty_shelf_msgs.egg-info/PKG-INFO
+[0.617s] writing dependency_links to empty_shelf_msgs.egg-info/dependency_links.txt
+[0.617s] writing top-level names to empty_shelf_msgs.egg-info/top_level.txt
+[0.622s] reading manifest file 'empty_shelf_msgs.egg-info/SOURCES.txt'
+[0.622s] writing manifest file 'empty_shelf_msgs.egg-info/SOURCES.txt'
+[0.687s] [ 12%] Built target ament_cmake_python_build_empty_shelf_msgs_egg
+[0.718s] [ 22%] Built target empty_shelf_msgs__rosidl_typesupport_fastrtps_cpp
+[0.745s] [ 32%] Built target empty_shelf_msgs__rosidl_typesupport_cpp
+[0.782s] [ 41%] Built target empty_shelf_msgs__rosidl_generator_c
+[0.820s] [ 51%] Built target empty_shelf_msgs__rosidl_typesupport_fastrtps_c
+[0.856s] [ 61%] Built target empty_shelf_msgs__rosidl_typesupport_c
+[0.888s] [ 70%] Built target empty_shelf_msgs__rosidl_typesupport_introspection_c
+[0.923s] [ 70%] Built target empty_shelf_msgs
+[0.953s] [ 74%] Built target empty_shelf_msgs__py
+[0.987s] [ 80%] Built target empty_shelf_msgs__rosidl_generator_py
+[1.027s] [ 87%] Built target empty_shelf_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.060s] [ 93%] Built target empty_shelf_msgs__rosidl_typesupport_c__pyext
+[1.095s] [100%] Built target empty_shelf_msgs__rosidl_typesupport_introspection_c__pyext
+[1.116s] Invoked command in '/home/raghav/turtlebot4_ws/build/empty_shelf_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/raghav/turtlebot4_ws/build/empty_shelf_msgs -- -j8 -l8
+[1.119s] Invoking command in '/home/raghav/turtlebot4_ws/build/empty_shelf_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/raghav/turtlebot4_ws/build/empty_shelf_msgs
+[1.133s] -- Install configuration: ""
+[1.134s] -- Execute custom install script
+[1.134s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/ament_index/resource_index/rosidl_interfaces/empty_shelf_msgs
+[1.136s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/include/empty_shelf_msgs/empty_shelf_msgs/msg/detail/empty_shelf_alert__functions.h
+[1.136s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/include/empty_shelf_msgs/empty_shelf_msgs/msg/detail/empty_shelf_alert__struct.h
+[1.136s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/include/empty_shelf_msgs/empty_shelf_msgs/msg/detail/empty_shelf_alert__type_support.h
+[1.137s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/include/empty_shelf_msgs/empty_shelf_msgs/msg/empty_shelf_alert.h
+[1.137s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/include/empty_shelf_msgs/empty_shelf_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.138s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/environment/library_path.sh
+[1.138s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/environment/library_path.dsv
+[1.139s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/include/empty_shelf_msgs/empty_shelf_msgs/msg/detail/empty_shelf_alert__rosidl_typesupport_fastrtps_c.h
+[1.140s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/include/empty_shelf_msgs/empty_shelf_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.140s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/include/empty_shelf_msgs/empty_shelf_msgs/msg/detail/empty_shelf_alert__builder.hpp
+[1.141s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/include/empty_shelf_msgs/empty_shelf_msgs/msg/detail/empty_shelf_alert__struct.hpp
+[1.142s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/include/empty_shelf_msgs/empty_shelf_msgs/msg/detail/empty_shelf_alert__traits.hpp
+[1.142s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/include/empty_shelf_msgs/empty_shelf_msgs/msg/detail/empty_shelf_alert__type_support.hpp
+[1.142s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/include/empty_shelf_msgs/empty_shelf_msgs/msg/empty_shelf_alert.hpp
+[1.142s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/include/empty_shelf_msgs/empty_shelf_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.143s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/include/empty_shelf_msgs/empty_shelf_msgs/msg/detail/empty_shelf_alert__rosidl_typesupport_fastrtps_cpp.hpp
+[1.144s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/include/empty_shelf_msgs/empty_shelf_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.146s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/include/empty_shelf_msgs/empty_shelf_msgs/msg/detail/empty_shelf_alert__rosidl_typesupport_introspection_c.h
+[1.146s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/include/empty_shelf_msgs/empty_shelf_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.146s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/include/empty_shelf_msgs/empty_shelf_msgs/msg/detail/empty_shelf_alert__rosidl_typesupport_introspection_cpp.hpp
+[1.147s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/environment/pythonpath.sh
+[1.147s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/environment/pythonpath.dsv
+[1.148s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs-0.1.0-py3.10.egg-info/PKG-INFO
+[1.148s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs-0.1.0-py3.10.egg-info/SOURCES.txt
+[1.149s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs-0.1.0-py3.10.egg-info/dependency_links.txt
+[1.150s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs-0.1.0-py3.10.egg-info/top_level.txt
+[1.150s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs/__init__.py
+[1.151s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs/_empty_shelf_msgs_s.ep.rosidl_typesupport_c.c
+[1.151s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs/_empty_shelf_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.151s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs/_empty_shelf_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.151s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs/empty_shelf_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.151s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs/empty_shelf_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.151s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs/empty_shelf_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.151s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs/libempty_shelf_msgs__rosidl_generator_py.so
+[1.151s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs/msg/__init__.py
+[1.151s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs/msg/_empty_shelf_alert.py
+[1.151s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs/msg/_empty_shelf_alert_s.c
+[1.152s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs/empty_shelf_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.154s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs/empty_shelf_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.155s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs/empty_shelf_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.155s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/msg/EmptyShelfAlert.idl
+[1.156s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/msg/EmptyShelfAlert.msg
+[1.156s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/msg/EmptyShelfAlert.msg
+[1.156s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/ament_index/resource_index/package_run_dependencies/empty_shelf_msgs
+[1.156s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/ament_index/resource_index/parent_prefix_path/empty_shelf_msgs
+[1.156s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/environment/ament_prefix_path.sh
+[1.156s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/environment/ament_prefix_path.dsv
+[1.156s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/environment/path.sh
+[1.156s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/environment/path.dsv
+[1.156s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/local_setup.bash
+[1.157s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/local_setup.sh
+[1.157s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/local_setup.zsh
+[1.157s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/local_setup.dsv
+[1.157s] -- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/package.dsv
+[1.173s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/ament_index/resource_index/packages/empty_shelf_msgs
+[1.174s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/rosidl_cmake-extras.cmake
+[1.174s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.174s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.174s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.174s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.174s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.174s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.175s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/empty_shelf_msgsConfig.cmake
+[1.175s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/empty_shelf_msgsConfig-version.cmake
+[1.175s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/package.xml
+[1.175s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/lib/libempty_shelf_msgs__rosidl_generator_c.so
+[1.175s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/lib/libempty_shelf_msgs__rosidl_typesupport_fastrtps_c.so
+[1.176s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/lib/libempty_shelf_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.176s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/lib/libempty_shelf_msgs__rosidl_typesupport_introspection_c.so
+[1.176s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/lib/libempty_shelf_msgs__rosidl_typesupport_c.so
+[1.176s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/lib/libempty_shelf_msgs__rosidl_typesupport_introspection_cpp.so
+[1.177s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/lib/libempty_shelf_msgs__rosidl_typesupport_cpp.so
+[1.231s] Listing '/home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs'...
+[1.232s] Listing '/home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages/empty_shelf_msgs/msg'...
+[1.242s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/lib/libempty_shelf_msgs__rosidl_generator_py.so
+[1.243s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/export_empty_shelf_msgs__rosidl_generator_cExport.cmake
+[1.243s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/export_empty_shelf_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.243s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/export_empty_shelf_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.243s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/export_empty_shelf_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.243s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/export_empty_shelf_msgs__rosidl_generator_cppExport.cmake
+[1.243s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/export_empty_shelf_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.243s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/export_empty_shelf_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.243s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/empty_shelf_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.244s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/empty_shelf_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.245s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/empty_shelf_msgs__rosidl_typesupport_cExport.cmake
+[1.245s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/empty_shelf_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.245s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/empty_shelf_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.245s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/empty_shelf_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.245s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/empty_shelf_msgs__rosidl_typesupport_cppExport.cmake
+[1.245s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/empty_shelf_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.246s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/export_empty_shelf_msgs__rosidl_generator_pyExport.cmake
+[1.246s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake/export_empty_shelf_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.255s] Invoked command in '/home/raghav/turtlebot4_ws/build/empty_shelf_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/raghav/turtlebot4_ws/build/empty_shelf_msgs

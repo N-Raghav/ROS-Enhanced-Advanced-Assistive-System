@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-40159add61b8426797d5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "empty_shelf_detector",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_empty_shelf_detector_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_empty_shelf_detector_egg-Release-f8bccd47a7768cfcd102.json",
+					"name" : "ament_cmake_python_build_empty_shelf_detector_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_empty_shelf_detector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_empty_shelf_detector-Release-24a2cc9657d34089b366.json",
+					"name" : "ament_cmake_python_symlink_empty_shelf_detector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_empty_shelf_detector_setup::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_empty_shelf_detector_setup-Release-73a3005c85370cf4fd09.json",
+					"name" : "ament_cmake_python_symlink_empty_shelf_detector_setup",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "empty_shelf_detector_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-empty_shelf_detector_uninstall-Release-99b8dbca4a4083d71e87.json",
+					"name" : "empty_shelf_detector_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-4ef70a716e6820596d33.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/raghav/turtlebot4_ws/build/empty_shelf_detector",
+		"source" : "/home/raghav/turtlebot4_ws/src/empty_shelf_detector"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

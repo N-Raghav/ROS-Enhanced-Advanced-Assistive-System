@@ -1,0 +1,3 @@
+[console_scripts]
+esd = empty_shelf_detector.esd:main
+

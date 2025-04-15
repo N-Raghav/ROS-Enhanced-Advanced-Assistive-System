@@ -1,0 +1,36 @@
+running egg_info
+creating ../build/empty_shelf_detector/empty_shelf_detector.egg-info
+writing ../build/empty_shelf_detector/empty_shelf_detector.egg-info/PKG-INFO
+writing dependency_links to ../build/empty_shelf_detector/empty_shelf_detector.egg-info/dependency_links.txt
+writing entry points to ../build/empty_shelf_detector/empty_shelf_detector.egg-info/entry_points.txt
+writing requirements to ../build/empty_shelf_detector/empty_shelf_detector.egg-info/requires.txt
+writing top-level names to ../build/empty_shelf_detector/empty_shelf_detector.egg-info/top_level.txt
+writing manifest file '../build/empty_shelf_detector/empty_shelf_detector.egg-info/SOURCES.txt'
+reading manifest file '../build/empty_shelf_detector/empty_shelf_detector.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/empty_shelf_detector/empty_shelf_detector.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/raghav/turtlebot4_ws/src/build/empty_shelf_detector/build
+creating /home/raghav/turtlebot4_ws/src/build/empty_shelf_detector/build/lib
+creating /home/raghav/turtlebot4_ws/src/build/empty_shelf_detector/build/lib/empty_shelf_detector
+copying empty_shelf_detector/__init__.py -> /home/raghav/turtlebot4_ws/src/build/empty_shelf_detector/build/lib/empty_shelf_detector
+copying empty_shelf_detector/esd.py -> /home/raghav/turtlebot4_ws/src/build/empty_shelf_detector/build/lib/empty_shelf_detector
+running install
+running install_lib
+creating /home/raghav/turtlebot4_ws/src/install/empty_shelf_detector/lib/python3.10/site-packages/empty_shelf_detector
+copying /home/raghav/turtlebot4_ws/src/build/empty_shelf_detector/build/lib/empty_shelf_detector/__init__.py -> /home/raghav/turtlebot4_ws/src/install/empty_shelf_detector/lib/python3.10/site-packages/empty_shelf_detector
+copying /home/raghav/turtlebot4_ws/src/build/empty_shelf_detector/build/lib/empty_shelf_detector/esd.py -> /home/raghav/turtlebot4_ws/src/install/empty_shelf_detector/lib/python3.10/site-packages/empty_shelf_detector
+byte-compiling /home/raghav/turtlebot4_ws/src/install/empty_shelf_detector/lib/python3.10/site-packages/empty_shelf_detector/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/raghav/turtlebot4_ws/src/install/empty_shelf_detector/lib/python3.10/site-packages/empty_shelf_detector/esd.py to esd.cpython-310.pyc
+running install_data
+creating /home/raghav/turtlebot4_ws/src/install/empty_shelf_detector/share/ament_index
+creating /home/raghav/turtlebot4_ws/src/install/empty_shelf_detector/share/ament_index/resource_index
+creating /home/raghav/turtlebot4_ws/src/install/empty_shelf_detector/share/ament_index/resource_index/packages
+copying resource/empty_shelf_detector -> /home/raghav/turtlebot4_ws/src/install/empty_shelf_detector/share/ament_index/resource_index/packages
+copying package.xml -> /home/raghav/turtlebot4_ws/src/install/empty_shelf_detector/share/empty_shelf_detector
+running install_egg_info
+Copying ../build/empty_shelf_detector/empty_shelf_detector.egg-info to /home/raghav/turtlebot4_ws/src/install/empty_shelf_detector/lib/python3.10/site-packages/empty_shelf_detector-0.0.0-py3.10.egg-info
+running install_scripts
+Installing esd script to /home/raghav/turtlebot4_ws/src/install/empty_shelf_detector/lib/empty_shelf_detector
+writing list of installed files to '/home/raghav/turtlebot4_ws/src/build/empty_shelf_detector/install.log'

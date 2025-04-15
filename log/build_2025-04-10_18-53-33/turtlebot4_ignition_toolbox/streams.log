@@ -1,0 +1,24 @@
+[0.015s] Invoking command in '/home/raghav/turtlebot4_ws/build/turtlebot4_ignition_toolbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/raghav/turtlebot4_ws/build/turtlebot4_ignition_toolbox -- -j8 -l8
+[0.092s] [ 60%] Built target turtlebot4_ignition_toolbox_lib
+[0.116s] [100%] Built target turtlebot4_ignition_hmi_node
+[0.127s] Invoked command in '/home/raghav/turtlebot4_ws/build/turtlebot4_ignition_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/raghav/turtlebot4_ws/build/turtlebot4_ignition_toolbox -- -j8 -l8
+[0.138s] Invoking command in '/home/raghav/turtlebot4_ws/build/turtlebot4_ignition_toolbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/raghav/turtlebot4_ws/build/turtlebot4_ignition_toolbox
+[0.143s] -- Install configuration: ""
+[0.144s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/turtlebot4_ignition_toolbox/lib/turtlebot4_ignition_toolbox/turtlebot4_ignition_hmi_node
+[0.144s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/turtlebot4_ignition_toolbox/share/ament_index/resource_index/package_run_dependencies/turtlebot4_ignition_toolbox
+[0.144s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/turtlebot4_ignition_toolbox/share/ament_index/resource_index/parent_prefix_path/turtlebot4_ignition_toolbox
+[0.144s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/environment/ament_prefix_path.sh
+[0.144s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/environment/ament_prefix_path.dsv
+[0.144s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/environment/path.sh
+[0.144s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/environment/path.dsv
+[0.144s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/local_setup.bash
+[0.144s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/local_setup.sh
+[0.144s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/local_setup.zsh
+[0.144s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/local_setup.dsv
+[0.144s] -- Installing: /home/raghav/turtlebot4_ws/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/package.dsv
+[0.144s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/turtlebot4_ignition_toolbox/share/ament_index/resource_index/packages/turtlebot4_ignition_toolbox
+[0.145s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.145s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/cmake/turtlebot4_ignition_toolboxConfig.cmake
+[0.145s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/cmake/turtlebot4_ignition_toolboxConfig-version.cmake
+[0.145s] -- Up-to-date: /home/raghav/turtlebot4_ws/install/turtlebot4_ignition_toolbox/share/turtlebot4_ignition_toolbox/package.xml
+[0.149s] Invoked command in '/home/raghav/turtlebot4_ws/build/turtlebot4_ignition_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/raghav/turtlebot4_ws/build/turtlebot4_ignition_toolbox

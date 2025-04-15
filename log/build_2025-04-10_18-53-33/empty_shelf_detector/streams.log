@@ -1,0 +1,114 @@
+[0.016s] Invoking command in '/home/raghav/turtlebot4_ws/build/empty_shelf_detector': AMENT_PREFIX_PATH=/home/raghav/turtlebot4_ws/install/empty_shelf_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raghav/turtlebot4_ws/install/empty_shelf_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/raghav/turtlebot4_ws/install/empty_shelf_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/raghav/turtlebot4_ws/src/empty_shelf_detector -DCMAKE_INSTALL_PREFIX=/home/raghav/turtlebot4_ws/install/empty_shelf_detector
+[0.035s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.156s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.169s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[0.170s] -- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.199s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.202s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.209s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.219s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.231s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.255s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.283s] -- Found empty_shelf_msgs: 0.1.0 (/home/raghav/turtlebot4_ws/install/empty_shelf_msgs/share/empty_shelf_msgs/cmake)
+[0.413s] -- Configuring done
+[0.420s] -- Generating done
+[0.424s] -- Build files have been written to: /home/raghav/turtlebot4_ws/build/empty_shelf_detector
+[0.432s] Invoked command in '/home/raghav/turtlebot4_ws/build/empty_shelf_detector' returned '0': AMENT_PREFIX_PATH=/home/raghav/turtlebot4_ws/install/empty_shelf_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raghav/turtlebot4_ws/install/empty_shelf_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/raghav/turtlebot4_ws/install/empty_shelf_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/raghav/turtlebot4_ws/src/empty_shelf_detector -DCMAKE_INSTALL_PREFIX=/home/raghav/turtlebot4_ws/install/empty_shelf_detector
+[0.434s] Invoking command in '/home/raghav/turtlebot4_ws/build/empty_shelf_detector': AMENT_PREFIX_PATH=/home/raghav/turtlebot4_ws/install/empty_shelf_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raghav/turtlebot4_ws/install/empty_shelf_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/raghav/turtlebot4_ws/install/empty_shelf_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/raghav/turtlebot4_ws/build/empty_shelf_detector -- -j8 -l8
+[0.509s] Built target ament_cmake_python_symlink_empty_shelf_detector
+[0.510s] Built target ament_cmake_python_symlink_empty_shelf_detector_setup
+[0.731s] running egg_info
+[0.731s] writing empty_shelf_detector.egg-info/PKG-INFO
+[0.732s] writing dependency_links to empty_shelf_detector.egg-info/dependency_links.txt
+[0.732s] writing top-level names to empty_shelf_detector.egg-info/top_level.txt
+[0.733s] reading manifest file 'empty_shelf_detector.egg-info/SOURCES.txt'
+[0.734s] writing manifest file 'empty_shelf_detector.egg-info/SOURCES.txt'
+[0.768s] Built target ament_cmake_python_build_empty_shelf_detector_egg
+[0.787s] Invoked command in '/home/raghav/turtlebot4_ws/build/empty_shelf_detector' returned '0': AMENT_PREFIX_PATH=/home/raghav/turtlebot4_ws/install/empty_shelf_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raghav/turtlebot4_ws/install/empty_shelf_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/raghav/turtlebot4_ws/install/empty_shelf_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/raghav/turtlebot4_ws/build/empty_shelf_detector -- -j8 -l8
+[0.790s] Invoking command in '/home/raghav/turtlebot4_ws/build/empty_shelf_detector': AMENT_PREFIX_PATH=/home/raghav/turtlebot4_ws/install/empty_shelf_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raghav/turtlebot4_ws/install/empty_shelf_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/raghav/turtlebot4_ws/install/empty_shelf_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/raghav/turtlebot4_ws/build/empty_shelf_detector
+[0.801s] -- Install configuration: "Release"
+[0.802s] -- Execute custom install script
+[0.803s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/share/empty_shelf_detector/environment/pythonpath.sh
+[0.803s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/share/empty_shelf_detector/environment/pythonpath.dsv
+[0.803s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages/empty_shelf_detector-0.1.0-py3.10.egg-info/PKG-INFO
+[0.803s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages/empty_shelf_detector-0.1.0-py3.10.egg-info/SOURCES.txt
+[0.803s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages/empty_shelf_detector-0.1.0-py3.10.egg-info/dependency_links.txt
+[0.804s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages/empty_shelf_detector-0.1.0-py3.10.egg-info/top_level.txt
+[0.805s] [33mCMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):
+[0.805s]   Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow
+[0.805s]   symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.
+[0.805s]   Use the cmake_policy command to set the policy and suppress this warning.
+[0.805s] Call Stack (most recent call first):
+[0.805s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:323 (ament_cmake_symlink_install_directory)
+[0.805s]   cmake_install.cmake:46 (include)
+[0.806s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.806s] [0m
+[0.806s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages/empty_shelf_detector/__init__.py
+[0.806s] -- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages/empty_shelf_detector/scripts/build/.built_by
+[0.806s] [33mCMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:73 (file):
+[0.806s]   Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow
+[0.806s]   symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.
+[0.806s]   Use the cmake_policy command to set the policy and suppress this warning.
+[0.807s] Call Stack (most recent call first):
+[0.807s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:323 (ament_cmake_symlink_install_directory)
+[0.807s]   cmake_install.cmake:46 (include)
+[0.807s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.807s] [0m
+[0.807s] [33mCMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:73 (file):
+[0.808s]   Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow
+[0.808s]   symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.
+[0.808s]   Use the cmake_policy command to set the policy and suppress this warning.
+[0.808s] Call Stack (most recent call first):
+[0.808s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:323 (ament_cmake_symlink_install_directory)
+[0.808s]   cmake_install.cmake:46 (include)
+[0.808s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.808s] [0m
+[0.817s] -- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages/empty_shelf_detector/scripts/build/COLCON_IGNORE
+[0.832s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages/empty_shelf_detector/scripts/esd.py
+[0.832s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages/empty_shelf_detector/scripts/esd_subscriber.py
+[0.832s] -- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages/empty_shelf_detector/scripts/install/.colcon_install_layout
+[0.846s] -- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages/empty_shelf_detector/scripts/install/COLCON_IGNORE
+[0.860s] -- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages/empty_shelf_detector/scripts/install/_local_setup_util_ps1.py
+[0.875s] -- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages/empty_shelf_detector/scripts/install/_local_setup_util_sh.py
+[0.889s] -- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages/empty_shelf_detector/scripts/install/local_setup.bash
+[0.904s] -- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages/empty_shelf_detector/scripts/install/local_setup.ps1
+[0.918s] -- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages/empty_shelf_detector/scripts/install/local_setup.sh
+[0.930s] -- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages/empty_shelf_detector/scripts/install/local_setup.zsh
+[0.943s] -- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages/empty_shelf_detector/scripts/install/setup.bash
+[0.950s] -- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages/empty_shelf_detector/scripts/install/setup.ps1
+[0.956s] -- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages/empty_shelf_detector/scripts/install/setup.sh
+[0.963s] -- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages/empty_shelf_detector/scripts/install/setup.zsh
+[0.970s] -- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages/empty_shelf_detector/scripts/log/COLCON_IGNORE
+[0.977s] -- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages/empty_shelf_detector/scripts/log/build_2025-04-07_13-13-36/events.log
+[0.984s] -- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages/empty_shelf_detector/scripts/log/build_2025-04-07_13-13-36/logger_all.log
+[0.991s] -- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages/empty_shelf_detector/scripts/log/latest/events.log
+[0.998s] -- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages/empty_shelf_detector/scripts/log/latest/logger_all.log
+[1.005s] -- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages/empty_shelf_detector/scripts/log/latest_build/events.log
+[1.012s] -- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages/empty_shelf_detector/scripts/log/latest_build/logger_all.log
+[1.026s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/share/ament_index/resource_index/package_run_dependencies/empty_shelf_detector
+[1.026s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/share/ament_index/resource_index/parent_prefix_path/empty_shelf_detector
+[1.026s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/share/empty_shelf_detector/environment/ament_prefix_path.sh
+[1.026s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/share/empty_shelf_detector/environment/ament_prefix_path.dsv
+[1.026s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/share/empty_shelf_detector/environment/path.sh
+[1.027s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/share/empty_shelf_detector/environment/path.dsv
+[1.027s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/share/empty_shelf_detector/local_setup.bash
+[1.027s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/share/empty_shelf_detector/local_setup.sh
+[1.027s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/share/empty_shelf_detector/local_setup.zsh
+[1.027s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/share/empty_shelf_detector/local_setup.dsv
+[1.028s] -- Symlinking: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/share/empty_shelf_detector/package.dsv
+[1.035s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/share/ament_index/resource_index/packages/empty_shelf_detector
+[1.035s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/share/empty_shelf_detector/cmake/empty_shelf_detectorConfig.cmake
+[1.036s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/share/empty_shelf_detector/cmake/empty_shelf_detectorConfig-version.cmake
+[1.036s] -- Up-to-date symlink: /home/raghav/turtlebot4_ws/install/empty_shelf_detector/share/empty_shelf_detector/package.xml
+[1.064s] Listing '/home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages/empty_shelf_detector'...
+[1.064s] Listing '/home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages/empty_shelf_detector/scripts'...
+[1.064s] Listing '/home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages/empty_shelf_detector/scripts/build'...
+[1.064s] Compiling '/home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages/empty_shelf_detector/scripts/esd_subscriber.py'...
+[1.064s] Listing '/home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages/empty_shelf_detector/scripts/install'...
+[1.064s] Compiling '/home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages/empty_shelf_detector/scripts/install/_local_setup_util_ps1.py'...
+[1.065s] Compiling '/home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages/empty_shelf_detector/scripts/install/_local_setup_util_sh.py'...
+[1.065s] Listing '/home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages/empty_shelf_detector/scripts/log'...
+[1.065s] Listing '/home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages/empty_shelf_detector/scripts/log/build_2025-04-07_13-13-36'...
+[1.065s] Listing '/home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages/empty_shelf_detector/scripts/log/latest'...
+[1.065s] Listing '/home/raghav/turtlebot4_ws/install/empty_shelf_detector/local/lib/python3.10/dist-packages/empty_shelf_detector/scripts/log/latest_build'...
+[1.072s] Invoked command in '/home/raghav/turtlebot4_ws/build/empty_shelf_detector' returned '0': AMENT_PREFIX_PATH=/home/raghav/turtlebot4_ws/install/empty_shelf_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/raghav/turtlebot4_ws/install/empty_shelf_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/raghav/turtlebot4_ws/install/empty_shelf_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/raghav/turtlebot4_ws/install/empty_shelf_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/raghav/turtlebot4_ws/build/empty_shelf_detector

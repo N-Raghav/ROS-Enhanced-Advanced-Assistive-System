@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>empty_shelf_detector</name>
+  <version>0.1.0</version>
+  <description>Detects empty shelves using image data.</description>
+
+  <maintainer email="raghavn753@gmail.com">Raghav</maintainer>
+  <author email="raghavn753@gmail.com">Raghav</author>
+  <license>Apache-2.0</license>
+
+  <!-- Build tools -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_python</buildtool_depend> <!-- important for Python installs -->
+
+  <!-- Build dependencies -->
+  <build_depend>builtin_interfaces</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>empty_shelf_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>rclpy</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+  <!-- Execution dependencies -->
+  <exec_depend>builtin_interfaces</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>empty_shelf_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <!-- Test dependencies -->
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <!-- Optional: if your package includes message generation, though it doesn't seem to -->
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

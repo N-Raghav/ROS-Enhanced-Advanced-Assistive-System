@@ -1,0 +1,6 @@
+{
+  "package_name": "empty_shelf_msgs",
+  "non_idl_tuples": [
+    "/home/raghav/turtlebot4_ws/src/empty_shelf_msgs:msg/EmptyShelfAlert.msg"
+  ]
+}

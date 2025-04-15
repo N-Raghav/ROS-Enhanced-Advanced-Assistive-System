@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ad0b23bc8112f0987cf7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "empty_shelf_msgs__py",
+					"jsonFile" : "directory-empty_shelf_msgs__py-64bcc6f45dae07e91696.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/raghav/turtlebot4_ws/build/empty_shelf_msgs/empty_shelf_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "empty_shelf_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_empty_shelf_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_empty_shelf_msgs_egg-e23ba733250032c7481a.json",
+					"name" : "ament_cmake_python_build_empty_shelf_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_empty_shelf_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_empty_shelf_msgs-60d09f6e7c9772a9e6ba.json",
+					"name" : "ament_cmake_python_symlink_empty_shelf_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "empty_shelf_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-empty_shelf_msgs-1c6b4cdc3fdfbf80100f.json",
+					"name" : "empty_shelf_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "empty_shelf_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-empty_shelf_msgs__cpp-8c977dd14215969f853b.json",
+					"name" : "empty_shelf_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "empty_shelf_msgs__py::@d62644870f7ad047d464",
+					"jsonFile" : "target-empty_shelf_msgs__py-5452167486c716ce3179.json",
+					"name" : "empty_shelf_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "empty_shelf_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-empty_shelf_msgs__rosidl_generator_c-015bd2d7e8176c3abd07.json",
+					"name" : "empty_shelf_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "empty_shelf_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-empty_shelf_msgs__rosidl_generator_py-142501679449b3c63f97.json",
+					"name" : "empty_shelf_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "empty_shelf_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-empty_shelf_msgs__rosidl_typesupport_c-7fa608e41627f6c5e7b6.json",
+					"name" : "empty_shelf_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "empty_shelf_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-empty_shelf_msgs__rosidl_typesupport_c__pyext-4f2834ea9f9e95ce5d43.json",
+					"name" : "empty_shelf_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "empty_shelf_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-empty_shelf_msgs__rosidl_typesupport_cpp-170a66a4d03c0fd54a73.json",
+					"name" : "empty_shelf_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "empty_shelf_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-empty_shelf_msgs__rosidl_typesupport_fastrtps_c-4a99e760ebdb1141bf5e.json",
+					"name" : "empty_shelf_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "empty_shelf_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-empty_shelf_msgs__rosidl_typesupport_fastrtps_c__pyext-261a832e9b5383d9c596.json",
+					"name" : "empty_shelf_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "empty_shelf_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-empty_shelf_msgs__rosidl_typesupport_fastrtps_cpp-7f611aa7bd645a5a20e1.json",
+					"name" : "empty_shelf_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "empty_shelf_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-empty_shelf_msgs__rosidl_typesupport_introspection_c-15a0ffd590f78a759045.json",
+					"name" : "empty_shelf_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "empty_shelf_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-empty_shelf_msgs__rosidl_typesupport_introspection_c__pyext-ee0dd477f55ed6f77012.json",
+					"name" : "empty_shelf_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "empty_shelf_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-empty_shelf_msgs__rosidl_typesupport_introspection_cpp-ff7475618938d51f2d62.json",
+					"name" : "empty_shelf_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "empty_shelf_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-empty_shelf_msgs_uninstall-90666d042bc2dd7dd440.json",
+					"name" : "empty_shelf_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2d8e3fc300aed1564a46.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/raghav/turtlebot4_ws/build/empty_shelf_msgs",
+		"source" : "/home/raghav/turtlebot4_ws/src/empty_shelf_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

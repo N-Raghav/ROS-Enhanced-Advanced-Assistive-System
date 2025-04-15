@@ -1,0 +1,143 @@
+<sdf version="1.7">
+  <world name="empty_shelf_detection">
+    <physics type="ode">
+      <max_step_size>0.003</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+    </physics>
+
+    <!-- Plugins -->
+    <plugin name="ignition::gazebo::systems::Physics" filename="libignition-gazebo-physics-system.so"/>
+    <plugin name="ignition::gazebo::systems::UserCommands" filename="libignition-gazebo-user-commands-system.so"/>
+    <plugin name="ignition::gazebo::systems::SceneBroadcaster" filename="libignition-gazebo-scene-broadcaster-system.so"/>
+
+    <!-- Lighting and scene -->
+    <scene>
+      <ambient>1 1 1 1</ambient>
+      <background>0.5 0.5 0.5 1</background>
+      <shadows>1</shadows>
+    </scene>
+    <light type="directional" name="sun">
+      <cast_shadows>1</cast_shadows>
+      <pose>-5 -5 10 0 0 0</pose>
+      <diffuse>1 1 1 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <direction>0 0 -1</direction>
+    </light>
+
+    <!-- Ground -->
+    <model name="ground_plane">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+        </collision>
+      </link>
+      <pose>0 0 0 0 0 0</pose>
+    </model>
+
+    <!-- Shelves (Left) -->
+    <include>
+      <uri>https://fuel.gazebosim.org/1.0/MovAi/models/shelf</uri>
+      <name>shelf_left_1_filled</name>
+      <pose>-1 3 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>https://fuel.gazebosim.org/1.0/MovAi/models/shelf</uri>
+      <name>shelf_left_2_half</name>
+      <pose>-1 6 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>https://fuel.gazebosim.org/1.0/MovAi/models/shelf</uri>
+      <name>shelf_left_3_empty</name>
+      <pose>-1 9 0 0 0 0</pose>
+    </include>
+
+    <!-- Shelves (Right) -->
+    <include>
+      <uri>https://fuel.gazebosim.org/1.0/MovAi/models/shelf</uri>
+      <name>shelf_right_1_filled</name>
+      <pose>1 3 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>https://fuel.gazebosim.org/1.0/MovAi/models/shelf</uri>
+      <name>shelf_right_2_half</name>
+      <pose>1 6 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>https://fuel.gazebosim.org/1.0/MovAi/models/shelf</uri>
+      <name>shelf_right_3_empty</name>
+      <pose>1 9 0 0 0 0</pose>
+    </include>
+
+    <!-- Product boxes on shelf_left_2 (half-filled) -->
+    <model name="product_box_1">
+      <pose>-1 6 0.8 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><box><size>0.3 0.3 0.3</size></box></geometry>
+          <material><diffuse>0 0 1 1</diffuse></material>
+        </visual>
+        <collision name="collision">
+          <geometry><box><size>0.3 0.3 0.3</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <!-- Product boxes on shelf_right_2 (half-filled) -->
+    <model name="product_box_2">
+      <pose>1 6 0.8 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><box><size>0.3 0.3 0.3</size></box></geometry>
+          <material><diffuse>1 0 0 1</diffuse></material>
+        </visual>
+        <collision name="collision">
+          <geometry><box><size>0.3 0.3 0.3</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <!-- Product boxes on shelf_left_1 (fully filled) -->
+    <model name="product_box_3">
+      <pose>-1 3 0.8 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><box><size>0.3 0.3 0.3</size></box></geometry>
+          <material><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+        <collision name="collision">
+          <geometry><box><size>0.3 0.3 0.3</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+    <model name="product_box_4">
+      <pose>-1 3 0.8 0 0 0.4</pose>
+      <static>true</static>
+      <link name="link">
+        <visual name="visual">
+          <geometry><box><size>0.3 0.3 0.3</size></box></geometry>
+          <material><diffuse>0 1 0 1</diffuse></material>
+        </visual>
+        <collision name="collision">
+          <geometry><box><size>0.3 0.3 0.3</size></box></geometry>
+        </collision>
+      </link>
+    </model>
+
+    <!-- Robot -->
+    <include>
+      <uri>https://fuel.gazebosim.org/1.0/YOUR_ROBOT_MODEL_URI</uri>
+      <name>my_robot</name>
+      <pose>0 1.5 0.01 0 0 1.57</pose> <!-- Facing shelves -->
+    </include>
+
+  </world>
+</sdf>

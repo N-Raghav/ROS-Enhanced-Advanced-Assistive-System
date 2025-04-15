@@ -1,0 +1,1 @@
+/home/raghav/turtlebot4_ws/build/empty_shelf_detector/ament_cmake_environment_hooks/local_setup.sh

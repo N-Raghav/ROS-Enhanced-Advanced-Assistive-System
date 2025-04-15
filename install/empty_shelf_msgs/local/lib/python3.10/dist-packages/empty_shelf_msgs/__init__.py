@@ -1,0 +1,1 @@
+/home/raghav/turtlebot4_ws/build/empty_shelf_msgs/rosidl_generator_py/empty_shelf_msgs/__init__.py

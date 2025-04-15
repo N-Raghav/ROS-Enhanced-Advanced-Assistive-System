@@ -1,0 +1,4 @@
+source;share/empty_shelf_detector/local_setup.bash
+source;share/empty_shelf_detector/local_setup.dsv
+source;share/empty_shelf_detector/local_setup.sh
+source;share/empty_shelf_detector/local_setup.zsh

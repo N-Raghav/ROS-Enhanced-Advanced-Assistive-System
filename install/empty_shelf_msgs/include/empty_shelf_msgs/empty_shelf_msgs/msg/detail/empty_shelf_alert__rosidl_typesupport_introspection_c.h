@@ -1,0 +1,1 @@
+/home/raghav/turtlebot4_ws/build/empty_shelf_msgs/rosidl_typesupport_introspection_c/empty_shelf_msgs/msg/detail/empty_shelf_alert__rosidl_typesupport_introspection_c.h
