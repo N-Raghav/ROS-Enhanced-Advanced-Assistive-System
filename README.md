@@ -7,8 +7,6 @@ REAAS (Retail and Autonomous Assistance Systems) is an intelligent platform desi
 ## 🚀 Key Features
 
 - 🤖 **Autonomous Navigation**: Path planning, obstacle avoidance, and smooth in-store mobility using ROS Navigation Stack.
-- 🧠 **AI-Based Interaction**: Natural user interaction using voice, gestures, and visual cues (camera + microphone integration).
-- 📊 **Real-Time Analytics**: Data collection and analytics for customer behavior and store insights.
 - 📦 **Inventory Management Support**: RFID and vision-based item detection and monitoring.
 - 🛒 **Smart Retail Assistant**: Guiding customers to products, answering FAQs, and providing personalized recommendations.
 
@@ -19,7 +17,7 @@ REAAS (Retail and Autonomous Assistance Systems) is an intelligent platform desi
 - **ROS 2 Humble**
 - **TurtleBot4**
 - **Nav2**
-- **Python / C++ Nodes**
+- **Python Nodes**
 - **RPLidar / OAK-D / Realsense Sensors**
 - **Gazebo / RViz for simulation**
 - **OpenCV** (for vision-based object/person detection)
@@ -33,7 +31,6 @@ REAAS (Retail and Autonomous Assistance Systems) is an intelligent platform desi
 
 - Retail stores and malls with large inventories
 - Supermarkets for smart assistance and shelf monitoring
-- Customer analytics through behavioral tracking
 
 ---
 
